@@ -1,0 +1,21 @@
+.LayoutDefault .logo{
+    max-height: 60px;
+  }
+
+.LayoutDefault  .prof-items img{
+    max-width: 50px;
+    border-radius: 50%;
+  }
+  
+.LayoutDefault  .nav-link:hover{
+    color: #6956e5;
+    font-weight: 700;
+    transition: .5s all;
+  }
+.LayoutDefault  .contsdainer-fluid{
+    min-height: 90vh;
+  }
+
+.LayoutDefault__footer {
+    margin-top: 50px;
+}

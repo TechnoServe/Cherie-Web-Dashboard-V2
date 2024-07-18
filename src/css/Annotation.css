@@ -1,0 +1,63 @@
+
+  
+  *,
+  *:before,
+  *:after {
+    box-sizing: border-box;
+  }
+  
+.annotation  h2 {
+    text-align: center;
+  }
+  
+.annotation  .description {
+    text-align: center;
+  }
+  
+.annotation  .myapp {
+    display: flex;
+  }
+  
+.annotation  input {
+    transform: translateY(3px);
+    width: 100px;
+    margin-left: 10px;
+  }
+  
+.annotation  .left-panel {
+    width: 200px;
+    padding: 10px;
+    background: #222;
+    color: white;
+  }
+  
+
+  
+.annotation  .region {
+    padding: 5px;
+    margin: 5px;
+    border-radius: 3px;
+    box-shadow: 0 0 3px grey;
+  }
+  
+.annotation  .region button {
+    float: right;
+  }
+  
+.annotation  .right-panel {
+    width: calc(100vw - 250px);
+    margin: 10px;
+    position: relative;
+  }
+  
+.annotation  .canvas {
+    box-shadow: 0 0 5px grey;
+  }
+  
+.annotation  .zoom-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 2px;
+  }
+  

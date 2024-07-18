@@ -1,0 +1,36 @@
+.ripeness-stats  .prof-items img{
+    max-width: 50px;
+  }
+.ripeness-stats  .alert-under{
+    background: #B5A9FB;
+  }
+
+.ripeness-stats  .alert-under{
+    background: #B5A9FB;
+  }
+.ripeness-stats  .alert-total{
+    background: #75EFA6;
+  }
+.ripeness-stats  .alert-over{
+    background: #FBC7A4;
+  }
+.ripeness-stats  .sidebar-sum{
+    .country-summary-card{
+      &:hover{
+          box-shadow: 0 2px 5px #6956e5a3 !important;
+          transition: 200ms all;
+      }
+      th{
+        width: 25%;
+      }
+    }
+  }
+
+  .ripeness-stats table tr th {
+    padding-bottom:10px;
+    border-bottom:1px solid black
+}
+
+.ripeness-stats table tr td {
+    border-bottom:1px solid black
+}

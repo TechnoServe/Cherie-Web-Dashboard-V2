@@ -1,0 +1,36 @@
+  h5{
+    margin:30px 0 30px 0;
+  }
+  .prof-items img{
+    max-width: 50px;
+  }
+  .alert-ripe{
+    background: #75EFA6;
+  }
+  .map{
+    height:450px
+  }
+  .alert-under{
+    background: #FB896B;
+  }
+  .alert-total{
+    background: #75EFA6;
+  }
+  .alert-over{
+    background: #6956E5;
+  }
+  .border-bottom{
+    border-bottom:5px red solid;
+    padding:3px
+  }
+  .sidebar-sum{
+    .country-summary-card{
+      &:hover{
+          box-shadow: 0 2px 5px #6956e5a3 !important;
+          transition: 200ms all;
+      }
+      th{
+        width: 25%;
+      }
+    }
+  }
